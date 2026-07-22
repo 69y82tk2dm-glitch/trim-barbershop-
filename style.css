@@ -111,7 +111,7 @@ section{
 
 .nav a:hover{
 
-    color:#d4af37;
+    color:var (--blue)
 
 }.book-btn{
 
