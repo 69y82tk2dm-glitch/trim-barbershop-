@@ -590,6 +590,84 @@ text-align:center;
 .gallery img{
 
 height:260px;
+/* ===========================
+   BARBER POLE
+=========================== */
 
+.barber-pole{
+
+    position:absolute;
+
+    right:5%;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    width:55px;
+
+    height:420px;
+
+    border-radius:50px;
+
+    overflow:hidden;
+
+    border:4px solid rgba(255,255,255,.35);
+
+    box-shadow:
+    0 0 25px rgba(255,255,255,.15);
+
+    z-index:2;
+
+}
+
+.pole{
+
+    width:100%;
+
+    height:200%;
+
+    background:
+    repeating-linear-gradient(
+        -45deg,
+        #ffffff 0px,
+        #ffffff 18px,
+        #d00000 18px,
+        #d00000 36px,
+        #003cff 36px,
+        #003cff 54px
+    );
+
+    animation:poleSpin 2.2s linear infinite;
+
+}
+
+@keyframes poleSpin{
+
+    from{
+
+        transform:translateY(0);
+
+    }
+
+    to{
+
+        transform:translateY(-50%);
+/* ===========================
+   GLOW EFFECT
+=========================== */
+
+.card:hover,
+.review-card:hover,
+.gallery img:hover{
+
+    box-shadow:
+    0 0 30px rgba(212,175,55,.15),
+    0 0 60px rgba(212,175,55,.08);
+
+}
+    }
+
+}
 
 }
