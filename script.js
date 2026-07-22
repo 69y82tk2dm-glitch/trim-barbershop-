@@ -45,4 +45,22 @@ window.addEventListener("scroll", () => {
     transition:.35s ease;
 
 }
+const navbar = document.querySelector(".navbar");
 
+window.addEventListener("scroll",()=>{
+
+    if(window.scrollY > 40){
+
+        navbar.style.background = "rgba(0,0,0,.80)";
+
+        navbar.style.backdropFilter = "blur(18px)";
+
+    }else{
+
+        navbar.style.background = "rgba(0,0,0,.45)";
+
+        navbar.style.backdropFilter = "blur(14px)";
+
+    }
+
+});
