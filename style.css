@@ -671,3 +671,52 @@ height:260px;
 }
 
 }
+/* ===========================
+   INSTAGRAM
+=========================== */
+
+.instagram-section{
+
+    text-align:center;
+
+    padding:110px 20px;
+
+    background:#080808;
+
+}
+
+.instagram-section h2{
+
+    font-size:3rem;
+
+    margin-bottom:20px;
+
+}
+
+.instagram-btn{
+
+    display:inline-block;
+
+    margin-top:35px;
+
+    padding:18px 40px;
+
+    border-radius:50px;
+
+    background:#E1306C;
+
+    color:white;
+
+    font-weight:700;
+
+    transition:.35s;
+
+}
+
+.instagram-btn:hover{
+
+    transform:translateY(-4px);
+
+    background:#C13584;
+
+}
