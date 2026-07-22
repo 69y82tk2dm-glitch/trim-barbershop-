@@ -930,4 +930,42 @@ transparent
 
 );
 
+}.stats{
+
+padding:120px 0;
+
+background:#050505;
+
+}
+
+.stats .container{
+
+display:flex;
+
+justify-content:space-around;
+
+flex-wrap:wrap;
+
+gap:40px;
+
+text-align:center;
+
+}
+
+.stat h2{
+
+font-size:4rem;
+
+color:#d4af37;
+
+margin-bottom:15px;
+
+}
+
+.stat p{
+
+font-size:1.2rem;
+
+color:#aaa;
+
 }
