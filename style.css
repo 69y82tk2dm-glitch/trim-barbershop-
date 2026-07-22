@@ -840,3 +840,94 @@ transform:translateY(0);
 }
 
 }
+/* ===========================
+   FLOATING SCISSORS
+=========================== */
+
+.scissors{
+
+position:absolute;
+
+left:8%;
+
+top:40%;
+
+font-size:70px;
+
+color:#d4af37;
+
+animation:spinFloat 7s linear infinite;
+
+opacity:.8;
+
+z-index:2;
+
+filter:drop-shadow(0 0 12px rgba(212,175,55,.5));
+
+}
+
+@keyframes spinFloat{
+
+0%{
+
+transform:translateY(0) rotate(0deg);
+
+}
+
+25%{
+
+transform:translateY(-20px) rotate(90deg);
+
+}
+
+50%{
+
+transform:translateY(0) rotate(180deg);
+
+}
+
+75%{
+
+transform:translateY(20px) rotate(270deg);
+
+}
+
+100%{
+
+transform:translateY(0) rotate(360deg);
+
+}.section{
+
+position:relative;
+
+}
+
+.section::after{
+
+content:"";
+
+position:absolute;
+
+bottom:0;
+
+left:50%;
+
+transform:translateX(-50%);
+
+width:150px;
+
+height:1px;
+
+background:linear-gradient(
+
+90deg,
+
+transparent,
+
+#d4af37,
+
+transparent
+
+);
+
+}
