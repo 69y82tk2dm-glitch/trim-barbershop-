@@ -854,7 +854,12 @@ top:40%;
 
 font-size:70px;
 
-color:#d4af37;
+root {
+--blue: #2563EB;
+--blue-light: #3B82F6;
+--blue-dark: #1D4ED8;
+--accent:
+#2563EB;
 
 animation:spinFloat 7s linear infinite;
 
