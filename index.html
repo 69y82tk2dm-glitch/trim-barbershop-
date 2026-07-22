@@ -1,358 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#000000">
-    <title>TRIM Barbershop | Premium Private Barber Studio</title>
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <meta name="description" content="Precision haircuts, fades, beard trims, and premium barbering by appointment.">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta charset="UTF-8">
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+<title>TRIM Barbershop</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+
 </head>
 
-<body><div class="loader">
+<body>
 
-<img src="assets/logo.png" alt="TRIM Logo">
+<div class="cursor"></div>
+
+<div class="scroll-pole">
+    <div class="pole-fill"></div>
+</div>
+
+<header class="navbar">
+
+<div class="logo">
+
+TRIM
 
 </div>
 
-<header class="header">
+<nav>
 
-    <div class="container">
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
 
-        <a href="#home" class="logo">
-            <img src="assets/logo.png" alt="TRIM Barbershop">
-        </a>
+<a class="book-btn"
+href="https://book.squareup.com/appointments/2byxxhzd4s85nf/location/LC1K6A3KWSEQ9/services">
 
-        <nav class="nav">
+Book Your Cut
 
-            <ul>
+</a>
 
-                <li><a href="#home">Home</a></li>
-
-                <li><a href="#services">Services</a></li>
-
-                <li><a href="#gallery">Gallery</a></li>
-
-                <li><a href="#about">About</a></li>
-
-                <li><a href="#contact">Contact</a></li>
-
-            </ul>
-<meta property="og:title" content="TRIM Barbershop">
-<meta property="og:description" content="Premium private barber studio. Book your next haircut today.">
-<meta property="og:image" content="assets/social-preview.jpg">
-<meta property="og:type" content="website">
-        </nav>
-
-        <a class="book-btn"
-           href="https://book.squareup.com/appointments/2byxxhzd4s85nf/location/LC1K6A3KWSEQ9/services"
-           target="_blank">
-            Book Now
-        </a>
-
-    </div>
+</nav>
 
 </header>
+<main>
 
-<section id="home" class="hero">
+<section class="hero">
 
-    <div class="overlay"></div>
+<div class="hero-content">
 
-    <div class="hero-content">
+<img
+src="assets/images/trim-logo.png"
+alt="TRIM Barbershop Logo"
+class="hero-logo">
 
-        <img src="assets/logo.png"
-             class="hero-logo"
-             alt="TRIM Logo">
-
-        <p class="eyebrow">
-            PREMIUM PRIVATE BARBER STUDIO
-        </p>
-
-        <h1>
-
-            Clean Cuts.<br>
-            Confidence.<br>
-            Every Time.
-<i class="fa-brands fa-instagram"></i>
-
-<i class="fa-solid fa-phone"></i>
-
-<i class="fa-solid fa-scissors"></i>
-        </h1>
-
-        <p class="hero-text">
-
-            Experience precision barbering in a modern private studio where every appointment is focused on quality, consistency and attention to detail.
-
-        </p>
-
-        <div class="hero-buttons">
-
-            <a href="https://book.squareup.com/appointments/2byxxhzd4s85nf/location/LC1K6A3KWSEQ9/services"
-               class="primary-btn"
-               target="_blank">
-
-                Book Your Cut
-
-            </a>
-
-            <a href="https://instagram.com/dylan.trimbarbershop"
-               class="secondary-btn"
-               target="_blank">
-
-                Instagram
-
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section id="services" class="section">
-
-    <div class="container">
-
-        <h2>Services</h2>
-
-        <div class="cards">
-
-            <div class="card">
-
-                <h3>Haircut</h3>
-
-                <p>
-                    Precision haircut tailored to your style.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h3>Haircut + Beard</h3>
-
-                <p>
-                    Complete grooming experience including beard shaping.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h3>Beard Trim</h3>
-
-                <p>
-                    Detailed beard trim and sharp lineup.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h3>Kids Cut</h3>
-
-                <p>
-                    Professional haircuts for younger clients.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section id="gallery" class="section">
-
-    <div class="container">
-
-        <h2>Gallery</h2>
-
-        <div class="gallery">
-
-            <img src="assets/gallery/cut1.jpg" alt="">
-            <img src="assets/gallery/cut2.jpg" alt="">
-            <img src="assets/gallery/cut3.jpg" alt="">
-            <img src="assets/gallery/cut4.jpg" alt="">
-            <img src="assets/gallery/cut5.jpg" alt="">
-            <img src="assets/gallery/cut6.jpg" alt="">
-
-        </div>
-
-    </div>
-
-</section>
-
-<section id="about" class="section">
-
-    <div class="container narrow">
-
-        <h2>About TRIM</h2>
-
-        <p>
-
-            TRIM is a premium private barber studio dedicated to delivering modern haircuts, fades, beard work, and a personalized experience for every client. Every appointment is designed around quality craftsmanship, consistency, and attention to detail.
-
-        </p>
-
-    </div>
-
-</section>
-
-<section id="contact" class="section">
-
-    <div class="container narrow">
-
-        <h2>Contact</h2>
-
-        <p><strong>Phone:</strong> (774) 294-8571</p>
-
-        <p><strong>Email:</strong> dylanhill270619@gmail.com</p>
-
-        <p><strong>Instagram:</strong> @dylan.trimbarbershop</p>
-
-        <div class="contact-buttons">
-
-            <a href="https://book.squareup.com/appointments/2byxxhzd4s85nf/location/LC1K6A3KWSEQ9/services"
-               class="primary-btn"
-               target="_blank">
-
-                Book Appointment
-
-            </a>
-
-            <a href="https://instagram.com/dylan.trimbarbershop"
-               class="secondary-btn"
-               target="_blank">
-
-                Follow on Instagram
-
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-<footer>
-
-    <p>
-
-        © <span id="year"></span> TRIM Barbershop
-
-    </p>
-
-    <p>
-<section id="reviews" class="section">
-
-<div class="container">
-
-<h2>Client Reviews</h2>
-
-<div class="review">
-
-★★★★★
-
-<p>
-"Best fade I've ever had. Super clean shop and attention to detail."
+<p class="eyebrow">
+PREMIUM • PRIVATE • BARBERSHOP
 </p>
 
-<span>- John D.</span>
+<h1>
 
-</div>
+<span>Clean Cuts.</span>
 
-</div>
+<span>Confidence.</span>
 
-</section>
-        Clean Cuts. Confidence. Every Time.
+<span>Every Time.</span>
 
-    </p>
+</h1>
 
-</footer>
+<p class="hero-text">
 
-<script src="script.js"></script>
+Premium private barber studio specializing in modern cuts and personalized service.
 
-</body>
-</html>
-<button id="topBtn">
+</p>
 
-↑
-
-</button>
-<div class="barber-pole">
-    <div class="pole"></div>
-</div>
-<section class="instagram-section">
-
-    <h2>Follow Our Work</h2>
-
-    <p>
-
-        Fresh cuts, transformations and daily content.
-
-    </p>
-
-    <a
-    href="https://instagram.com/dylan.trimbarbershop"
-    target="_blank"
-    class="instagram-btn">
-
-        @dylan.trimbarbershop
-
-    </a>
-
-</section>
 <a
-class="float-book"
-href="https://book.squareup.com/appointments/2byxxhzd4s85nf/location/LC1K6A3KWSEQ9/services"
-target="_blank">
+class="hero-button"
+href="https://book.squareup.com/appointments/2byxxhzd4s85nf/location/LC1K6A3KWSEQ9/services">
 
-Book Now
+BOOK YOUR CUT
 
-✂
-
-</div>
 </a>
-<section class="stats">
-
-<div class="container">
-
-<div class="stat">
-
-<h2>500+</h2>
-
-<p>Haircuts</p>
 
 </div>
 
-<div class="stat">
+<div class="barber-pole">
 
-<h2>5★</h2>
+<div class="cap top"></div>
 
-<p>Average Rating</p>
+<div class="pole"></div>
 
-</div>
-
-<div class="stat">
-
-<h2>100%</h2>
-
-<p>Attention To Detail</p>
-
-</div>
+<div class="cap bottom"></div>
 
 </div>
 
 </section>
+
+</main>
