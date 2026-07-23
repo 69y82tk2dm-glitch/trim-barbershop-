@@ -702,3 +702,75 @@ section {
     background: var(--trim-blue);
     color: white;
 }
+.hero {
+    min-height: 100vh;
+    background: #050505;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 260px;
+    height: 700px;
+    right: -120px;
+    top: 50%;
+    transform: translateY(-50%);
+    background:
+    repeating-linear-gradient(
+        45deg,
+        #2563eb 0px,
+        #2563eb 35px,
+        white 35px,
+        white 70px
+    );
+    border-radius: 50px;
+    animation: poleMove 4s linear infinite;
+    opacity: .15;
+}
+
+@keyframes poleMove {
+
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 200px 200px;
+    }
+
+}.hero-logo {
+    width: 230px;
+    max-width: 80%;
+    margin-bottom: 30px;
+    animation: floatLogo 3s ease-in-out infinite;
+}
+
+@keyframes floatLogo {
+
+    0%,100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+
+}.hero h1 {
+    color: white;
+    font-size: 45px;
+    line-height: 1.05;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #999;
+    max-width: 320px;
+    margin: auto;
+    line-height: 1.6;
+}
