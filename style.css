@@ -1,4 +1,11 @@
-/* =@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}/* =@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
 
 * {
     font-family: 'Montserrat', sans-serif;
@@ -117,16 +124,14 @@ nav{
 
     display:flex;
 
-    flex-direction:column;
-
     justify-content:center;
 
     align-items:center;
 
     text-align:center;
-
+padding: 100px 20px 60px;
+}
     gap:35px;
-
 }
 
 .hero-logo{
@@ -564,4 +569,31 @@ section {
         padding-right: 18px;
     }
 
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-btn {
+    background: var(--trim-blue);
+    color: white;
+    padding: 10px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}.section-tag {
+    color: var(--trim-blue);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}a {
+    -webkit-tap-highlight-color: transparent;
 }
