@@ -350,3 +350,46 @@ background-position:0 220px;
         0 0 50px rgba(37,99,235,.7);
 
 }
+.about {
+    padding: 70px 20px;
+    background: #0b0b0b;
+}
+
+.about-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.section-tag {
+    color: #2563eb;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.about h2 {
+    font-size: 34px;
+    line-height: 1.1;
+    margin: 15px 0;
+}
+
+.about p {
+    color: #b5b5b5;
+    line-height: 1.6;
+}
+
+.about-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.about-stats h3 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.about-stats p {
+    font-size: 12px;
+}
