@@ -662,3 +662,43 @@ section {
     }
 
 }
+.loader {
+    position: fixed;
+    inset: 0;
+    background: #050505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    animation: hideLoader 1.5s forwards;
+}
+
+.loader h1 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+
+.loader span {
+    color: var(--trim-blue);
+}
+
+@keyframes hideLoader {
+
+    0% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+}::selection {
+    background: var(--trim-blue);
+    color: white;
+}
