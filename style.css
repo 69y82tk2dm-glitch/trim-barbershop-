@@ -11,7 +11,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }==========================
    TRIM BARBERSHOP
-   MAIN.CSS
+   MAIN.CSS.logo img {
+    width: 70px;
+    height: auto;
+    display: block;
+}
 =========================== */
 
 :root{
