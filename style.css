@@ -601,3 +601,27 @@ section {
 }a {
     -webkit-tap-highlight-color: transparent;
 }
+.mobile-book-btn {
+    display: none;
+}
+
+@media (max-width: 600px) {
+
+    .mobile-book-btn {
+        display: block;
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        background: var(--trim-blue);
+        color: white;
+        text-align: center;
+        padding: 16px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 700;
+        z-index: 999;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+}
