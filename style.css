@@ -440,3 +440,43 @@ background-position:0 220px;
     font-size: 22px;
     font-weight: bold;
 }
+.booking {
+    padding: 80px 20px;
+    background: #050505;
+    text-align: center;
+}
+
+.booking-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.booking h2 {
+    font-size: 36px;
+    line-height: 1.1;
+    margin: 15px 0;
+}
+
+.booking p {
+    color: #999;
+    line-height: 1.6;
+}
+
+.booking-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 16px 35px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.contact-info {
+    margin-top: 35px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
