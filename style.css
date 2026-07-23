@@ -1,4 +1,8 @@
-/* ===========================
+/* =@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}==========================
    TRIM BARBERSHOP
    MAIN.CSS
 =========================== */
@@ -273,7 +277,9 @@ nav{
 0%{
 
 background-position:0 0;
-
+html {
+    scroll-behavior: smooth;
+}
 }
 
 100%{
@@ -471,6 +477,13 @@ background-position:0 220px;
     text-decoration: none;
     border-radius: 50px;
     font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.booking-btn:hover {
+    transform: translateY(-3px);
+    opacity: 0.85;
+}
 }
 
 .contact-info {
@@ -519,4 +532,36 @@ background-position:0 220px;
 .copyright {
     margin-top: 25px;
     font-size: 12px !important;
+}
+section {
+    animation: fadeUp 0.8s ease both;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}@media (max-width: 480px) {
+
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .about,
+    .booking,
+    .footer {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
 }
