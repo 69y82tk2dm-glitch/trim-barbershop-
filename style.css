@@ -135,7 +135,9 @@ nav{
     display:none;
 
 }.hero{
-
+.hero {
+    padding-top: 120px;
+}
     min-height:100vh;
 
     display:flex;
@@ -634,6 +636,29 @@ section {
         font-weight: 700;
         z-index: 999;
         box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+}
+.booking-btn,
+.nav-btn,
+.mobile-book-btn {
+    transition: transform .2s ease, opacity .2s ease;
+}
+
+.booking-btn:active,
+.nav-btn:active,
+.mobile-book-btn:active {
+    transform: scale(0.95);
+    opacity: .8;
+}@media (max-width: 600px) {
+
+    h1 {
+        font-size: 42px;
+        line-height: 1.05;
+    }
+
+    h2 {
+        font-size: 30px;
     }
 
 }
